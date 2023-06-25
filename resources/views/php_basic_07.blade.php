@@ -15,7 +15,14 @@
     </head>
     <body class="antialiased">
         <div >
-            <h1 >Hello World!!!</h1>
+            <h1 >1 B</h1>
+            <div>定義されていない関数 hello()を呼び出している</div>
+            <h1 >2 D</h1>
+            <div>文法的に正しくない書き方をしている</div>
+            <h1 >3 C</h1>
+            <div>配列内の存在しないキーを参照しようとしている</div>
+            <h1 >4 A</h1>
+            <div>変数 $i が定義されていない</div>
         </div>
     </body>
 </html>
