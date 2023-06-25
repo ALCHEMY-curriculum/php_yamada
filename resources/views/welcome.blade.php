@@ -20,6 +20,7 @@
                     <ul class="m-4">
                     <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_02') }}" >php_basic_02</a></div></li>
                     <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_03') }}" >php_basic_03</a></div></li>
+
                     <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_04') }}" >php_basic_04</a></div></li>
                     <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_05') }}" >php_basic_05</a></div></li>
                     <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_06') }}" >php_basic_06</a></div></li>
@@ -36,6 +37,7 @@
                     <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_17') }}" >php_basic_17</a></div></li>
                     <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_18') }}" >php_basic_18</a></div></li>
                     <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_19') }}" >php_basic_19</a></div></li>
+
                     </ul>
                 </div>
                     <!-- <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left">

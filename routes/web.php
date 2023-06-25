@@ -22,6 +22,7 @@ Route::get('/php_basic_02', function () {
 Route::get('/php_basic_03', function () {
     return view('php_basic_03');
 });
+
 Route::get('/php_basic_04', function () {
     return view('php_basic_04');
 });
@@ -70,3 +71,4 @@ Route::get('/php_basic_18', function () {
 Route::get('/php_basic_19', function () {
     return view('php_basic_19');
 });
+
