@@ -19,9 +19,23 @@
                 <div class="m-4">
                     <ul class="m-4">
                     <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_02') }}" >php_basic_02</a></div></li>
-                    <li class="m-4 text-lg"><div class=" ">Laravel</div></li>
-                    <li class="m-4 text-lg"><div class=" ">Laravel</div></li>
-                    <li class="m-4 text-lg"><div class=" ">Laravel</div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_03') }}" >php_basic_03</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_04') }}" >php_basic_04</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_05') }}" >php_basic_05</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_06') }}" >php_basic_06</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_07') }}" >php_basic_07</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_08') }}" >php_basic_08</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_09') }}" >php_basic_09</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_10') }}" >php_basic_10</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_11') }}" >php_basic_11</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_12') }}" >php_basic_12</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_13') }}" >php_basic_13</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_14') }}" >php_basic_14</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_15') }}" >php_basic_15</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_16') }}" >php_basic_16</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_17') }}" >php_basic_17</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_18') }}" >php_basic_18</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_19') }}" >php_basic_19</a></div></li>
                     </ul>
                 </div>
                     <!-- <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left">
