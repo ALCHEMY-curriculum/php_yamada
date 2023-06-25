@@ -15,7 +15,12 @@
     </head>
     <body class="antialiased">
         <div >
-            <h1 >Hello World!!!</h1>
+            <h1 >氏名</h1>
+            <?php
+                $name = "山田";
+                $name .= "太郎";
+                echo "こんにちは".$name."さん";
+            ?>
         </div>
     </body>
 </html>
