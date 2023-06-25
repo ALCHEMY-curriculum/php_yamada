@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/php_basic_02', function () {
     return view('php_basic_02');
 });
+Route::get('/php_basic_03', function () {
+    return view('php_basic_03');
+});

@@ -19,6 +19,7 @@
                 <div class="m-4">
                     <ul class="m-4">
                     <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_02') }}" >php_basic_02</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/php_basic_03') }}" >php_basic_03</a></div></li>
                     <li class="m-4 text-lg"><div class=" ">Laravel</div></li>
                     <li class="m-4 text-lg"><div class=" ">Laravel</div></li>
                     <li class="m-4 text-lg"><div class=" ">Laravel</div></li>
