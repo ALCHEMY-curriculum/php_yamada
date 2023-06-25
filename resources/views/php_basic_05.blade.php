@@ -15,7 +15,11 @@
     </head>
     <body class="antialiased">
         <div >
-            <h1 >Hello World!!!</h1>
+        <?php
+        $a= 3000;
+        $b= 2;
+            echo $a*$b;
+        ?>
         </div>
     </body>
 </html>
