@@ -4,7 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
         <title>Laravel-03</title>
+
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -13,6 +15,7 @@
         <!-- Styles -->
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
+
     <body class="antialiased m-4">
       <h1>課題  以下の型をすべて答えてください。</h1>
         <div >
@@ -29,6 +32,7 @@
             <h2>F. 0</h2>
             <div class="mb-4" >A NULL</div>
             
+
         </div>
     </body>
 </html>
