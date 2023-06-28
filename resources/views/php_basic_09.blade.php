@@ -17,6 +17,7 @@
         <div >
         <?php
 
+echo '<br>'."for文".'<br>';
 echo '<table>';
 for ($i = 1; $i <= 31; $i++) {
   if ($i % 7 === 1) {
@@ -32,6 +33,25 @@ for ($i = 1; $i <= 31; $i++) {
     echo '<td style="padding: 1rem" class="border-2">' . $i . '</td>';
   }
   
+}
+echo '</table>';
+echo '<br>'."while文".'<br>';
+echo '<table>';
+$i = 1;
+while ($i  <= 31) {
+    
+  if ($i % 7 === 1) {
+    echo '<tr>';
+  }
+  if ($i  === 1 || $i === 8 || $i === 15 || $i === 22 || $i === 29) {
+    echo '<td style="padding: 1rem"class="bg-red-600 border-2">' . $i.'（日）'. '</td>';
+  }elseif($i % 7 === 0){
+    echo '<td style="padding: 1rem"class="bg-blue-600 border-2">' . $i.'（土）' . '</td>';
+    echo '</tr>';
+  }else{
+    echo '<td style="padding: 1rem" class="border-2">' . $i . '</td>';
+  }
+  $i++;
 }
 echo '</table>';
 
