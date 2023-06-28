@@ -13,9 +13,27 @@
         <!-- Styles -->
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body class="antialiased">
+    <body class="antialiased m-6">
         <div >
-            <h1 >Hello World!!!</h1>
+        <?php
+
+$Line = [];
+
+
+$yamanoteLine = ['品川', '池袋', '大塚'];
+
+
+$denntoLine = ['三茶', '駒澤大学', '桜新町'];
+
+$Line[0][] = $yamanoteLine;
+
+$Line[1][1] = $denntoLine;
+
+echo '<pre>';
+var_dump($Line);
+echo '</pre>';
+
+?>
         </div>
     </body>
 </html>
