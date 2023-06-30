@@ -27,7 +27,7 @@ $denntoLine = ['三茶', '駒澤大学', '桜新町'];
 
 $Line[0][] = $yamanoteLine;
 
-$Line[1][1] = $denntoLine;
+$Line[0][1] = $denntoLine;
 
 echo '<pre>';
 var_dump($Line);
