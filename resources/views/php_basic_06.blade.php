@@ -13,9 +13,30 @@
         <!-- Styles -->
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body class="antialiased">
+    <body class="antialiased m-8">
         <div >
-            <h1 >Hello World!!!</h1>
+        <?php
+
+$true = true; // 変数の復習のため、変数$trueに true を代入しています
+$false = false;
+
+$a = $true && $true;
+$b = $true && $false;
+$c = $true && $true && $true;
+$d = $true && $false && $false;
+$e = $true && ($true || $false);
+
+var_dump($a);
+echo '<br>';
+var_dump($b);
+echo '<br>';
+var_dump($c);
+echo '<br>';
+var_dump($d);
+echo '<br>';
+var_dump($e);
+
+?>
         </div>
     </body>
 </html>
