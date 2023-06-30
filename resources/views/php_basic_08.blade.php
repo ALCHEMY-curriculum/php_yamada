@@ -18,7 +18,8 @@
 
    <?php
    $minutesNow = date('i');
-   $value = 0;
+   $value = "0";
+   $num = 0;
    
    if ($minutesNow % 2 === 1) {
       echo "奇数です";
@@ -27,7 +28,21 @@
    }
    echo '<br>';
    
+  //  結論単純な比較であると考えます
+  // valueに代入してある０を比較対象としても文字列の０なのか数値の０なのかを判定することができてできていない
+  
    switch ($value) {
+      case 0:
+        print_r("0 (数値)");
+          break;
+      case "0":
+        print_r("\"0\" (文字列)");
+          break;
+      default:
+      print_r("default");
+   }
+   echo '<br>';
+   switch ($num) {
       case 0:
         print_r("0 (数値)");
           break;
