@@ -15,7 +15,25 @@
     </head>
     <body class="antialiased">
         <div >
-            <h1 >Hello World!!!</h1>
+        <?php
+
+
+$members = [];
+
+$members[] = '川﨑';
+$members[1] = 'ゴリラ';
+$members[2] = 'ゴリラ・ゴリラ';
+$members[3] = 'ゴリラ・ゴリラ・ゴリラ';
+$members[4] = 'ゴリラ・ゴリラ・ゴリラ・ゴリラ';
+$members[5] = 'ゴリラ・ゴリラ・ゴリラ・ゴリラ・ゴリラ';
+
+foreach ($members as $member) {
+    echo "Name ".$member. '<br>';
+  }
+
+
+
+?>
         </div>
     </body>
 </html>
