@@ -17,9 +17,9 @@
         <div >
             <h1 >氏名</h1>
             <?php
-                $name = "山田";
-                $name .= "太郎";
-                echo "こんにちは".$name."さん";
+                $lastName = "山田";
+                $firstName = "太郎";
+                echo 'こんにちは'.$lastName.$firstName.'さん';
             ?>
         </div>
     </body>
