@@ -38,8 +38,8 @@ Route::get('/php_basic_07', function () {
 Route::get('/php_basic_08', function () {
     return view('php_basic_08');
 });
-Route::get('/php_basic_9', function () {
-    return view('php_basic_9');
+Route::get('/php_basic_09', function () {
+    return view('php_basic_09');
 });
 Route::get('/php_basic_10', function () {
     return view('php_basic_10');
