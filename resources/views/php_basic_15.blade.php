@@ -13,9 +13,31 @@
         <!-- Styles -->
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body class="antialiased">
+    <body class="antialiased m-6">
         <div >
-            <h1 >Hello World!!!</h1>
+        <?php
+        $items = [
+            'cola' => 140,
+            'orange' => 150,
+            'monster' => 200,
+            ];
+        function checkItem ($name,$money){
+            if ($name>=$money){
+                return true;
+        }else{
+                return false;
+        }
+        }
+        echo "関数結果";
+        echo "<br>";
+        var_dump(checkItem($items['cola'],150));
+        echo "<br>";
+        var_dump(checkItem($items['orange'],150));
+        echo "<br>";
+        var_dump(checkItem($items['monster'],150));
+
+        ?>
+
         </div>
     </body>
 </html>
