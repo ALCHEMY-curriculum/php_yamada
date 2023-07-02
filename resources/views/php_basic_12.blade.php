@@ -15,7 +15,29 @@
     </head>
     <body class="antialiased">
         <div >
-            <h1 >Hello World!!!</h1>
+        <?php
+
+$experiences = [
+    'firstSkill' => 'html',
+    'secondSkill' => 'css',
+    'thirdSkill' => 'js',
+    'fourthSkill' => 'react',
+  ];
+  echo '所持スキル';
+  echo '<br>';
+  echo $experiences['firstSkill'];
+  echo '<br>';
+  echo $experiences['secondSkill'];
+  echo '<br>';
+  echo $experiences['thirdSkill'];
+  echo '<br>';
+  echo $experiences['fourthSkill'];
+
+?>
+
+
+
+    
         </div>
     </body>
 </html>
