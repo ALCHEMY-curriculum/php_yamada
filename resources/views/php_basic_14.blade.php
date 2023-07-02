@@ -15,7 +15,15 @@
     </head>
     <body class="antialiased">
         <div >
-            <h1 >Hello World!!!</h1>
+        <?php
+
+$strnum = '12345';
+
+// 整数型に変換してください。
+
+print_r((int)$strnum);
+
+?>
         </div>
     </body>
 </html>
