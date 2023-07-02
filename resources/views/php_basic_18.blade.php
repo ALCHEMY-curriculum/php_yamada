@@ -1,21 +1,31 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+<?php
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+function checkPrimeNumber($num) {
+    for ($i = 2; $i < $num; $i++) {
+        if ($num % $i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
 
-        <!-- Styles -->
-        <script src="https://cdn.tailwindcss.com"></script>
-    </head>
-    <body class="antialiased">
-        <div >
-            <h1 >Hello World!!!</h1>
-        </div>
-    </body>
-</html>
+function displayPrimeNumberTable($num) {
+    $Array = [];
+    echo '<table>';
+    for ($i = 2; $i <= $num; $i++) {
+        if (checkPrimeNumber($i)) {
+            array_push($Array,$i);
+            echo '<tr>';
+            echo '<td style="padding: 1rem" class="border-2">' . '素数' . '</td>';
+            echo '<td style="padding: 1rem" class="border-2">' . $i . '</td>';
+            echo '</tr>';
+        }
+    }
+    echo '</table>';
+    echo "<br>";
+    foreach ($Array as $value) {
+        echo $value . ',';
+    }
+}
+?>
