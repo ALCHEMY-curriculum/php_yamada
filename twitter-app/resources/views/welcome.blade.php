@@ -18,7 +18,8 @@
             <div >
                 <div class="m-4">
                     <ul class="m-4">
-                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/tweets') }}" >Twitter風課題</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/tweets') }}" >laravel課題1と2</a></div></li>
+                    <li class="m-4 text-lg"><div class=" "><a href="{{ url('/tweets') }}" >laravel課題3</a></div></li>
                     </ul>
                 </div>
                     <!-- <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left">
